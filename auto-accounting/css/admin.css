@@ -1,0 +1,64 @@
+fieldset {
+	margin:20px 10px; 
+	border:1px solid #666;
+	border-radius:10px; 
+	padding:10px;
+}
+
+legend {
+	font-size:16px;
+	font-weight:bold;
+}
+
+input.datepicker {
+	background:url(../images/calendar_icon.png) no-repeat right;
+	cursor:pointer;
+}
+
+#totalsales td {
+	font-weight:bold;
+	border-top:1px solid #666;
+	padding-bottom:4px;
+}
+
+.statement > div {
+	width:48%;
+	float:left;
+	margin:10px 0px; 
+	border:1px solid #666;
+	border-radius:10px;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+.statement h3 {
+	margin:0px 0px 10px 0px;
+	background:#E4E4E4;
+	padding:10px 20px;
+	font-size:18px;
+	font-weight:bold;
+}
+.statement > div.expenses {
+	float:right;
+}
+.statement dl {
+	margin:0px 20px 0px 20px;
+	padding:0px;
+}
+.statement dt {
+	float:left;
+	width:30%;
+	font-weight:bold;
+	margin:0px;
+	padding:3px;
+	border-bottom:1px solid #CCC;
+}
+.statement dt.sub {
+	text-indent:15px;
+}
+.statement dd {
+	margin:0px;
+	padding:3px;
+	float:left;
+	width:65%;
+	border-bottom:1px solid #CCC;
+}
